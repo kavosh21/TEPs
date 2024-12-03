@@ -1,4 +1,6 @@
-- **TEP**: [64](https://github.com/ton-blockchain/TEPs/pull/3)
+burn#595f07bc query_id:uint64 amount:(VarUInteger 16)
+              response_destination:MsgAddress custom_payload:(Maybe ^Cell)
+              = InternalMsgBody;- **TEP**: [64](https://github.com/ton-blockchain/TEPs/pull/3)
 - **title**: Token Data Standard
 - **status**: Active
 - **type**: Contract Interface
